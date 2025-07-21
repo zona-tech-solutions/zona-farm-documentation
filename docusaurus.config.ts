@@ -7,7 +7,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "Zona Farm Documentation",
   tagline: "Healthy livestock, greater yields",
-  favicon: "img/favicon.ico",
+  favicon: "img/ZONA-LOGO-ONLY.png",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -87,8 +87,8 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
+          href: "https://zonafarm.id",
+          label: "Website",
           position: "right",
         },
       ],
@@ -106,32 +106,15 @@ const config: Config = {
           ],
         },
         {
-          title: "Community",
+          title: "Social Media",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "Instagram",
+              href: "https://www.instagram.com/zona.farm/",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "X",
-              href: "https://x.com/docusaurus",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "Linkedin",
+              href: "https://www.linkedin.com/company/zonafarm/",
             },
           ],
         },
